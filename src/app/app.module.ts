@@ -18,6 +18,7 @@ import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDialogModule} from '@angular/material/dialog';
 import { ShareCalendarComponent } from './components/shared/share-calendar/share-calendar.component';
+import { ComponentNameComponent } from './component-name/component-name.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ShareCalendarComponent } from './components/shared/share-calendar/share
     EquipoComponent,
     PatrocinioComponent,
     RrssComponent,
-    ShareCalendarComponent
+    ShareCalendarComponent,
+    ComponentNameComponent
   ],
   imports: [
     BrowserModule,
